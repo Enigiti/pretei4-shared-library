@@ -1,2 +1,2 @@
-# team4-shared-library
+# pretei4-shared-library
 To demo shared library concept
