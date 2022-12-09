@@ -6,13 +6,7 @@ def uber('String repoUrl'){
                     steps{
                         sh 'free -g'
                     }
-                }
-                stage('Checkout Code') {
-                    steps {
-                        git branch: 'main'
-                               url: "${repoUrl}"
-                    }
-                }   
+                } 
                 stage('closing'){
                     steps{
                         echo "new demo"
