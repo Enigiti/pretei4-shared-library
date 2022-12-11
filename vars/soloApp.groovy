@@ -19,6 +19,6 @@ def call(String repoUrl){
                    sh 'df -h'
                }
            }
-       }
-}
-}
+        }
+    } 
+}      
