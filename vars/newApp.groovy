@@ -13,6 +13,11 @@ def uber(String repoUrl){
                           url: "${repoUrl}"
                }
             }
+            stage('3-monitor'){
+                steps{
+                    sh 'lscpu'
+                }
+            }
             stage('closing'){
                 steps{
                     echo "new demo"
